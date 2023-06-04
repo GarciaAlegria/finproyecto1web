@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'MyCustomFont'; 
+    src: url('assets/BobaCups.otf') format('opentype'); 
+  }
+  
+body {
+    background: url('https://fondosmil.com/fondo/73185.jpg') no-repeat center center fixed; 
+    
+ 
+  }
+
+html, body { height: 100%; 
+  width: 100%;
+}
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

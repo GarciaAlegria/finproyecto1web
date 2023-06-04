@@ -1,0 +1,30 @@
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr; /* Esto crea una sola columna para móviles */
+    gap: 10px;
+  }
+  
+  .info-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .h1 {
+    color: white;
+  }
+  
+  @media screen and (min-width: 600px) {
+    /* Esto crea dos columnas para tabletas y pantallas más grandes */
+    .contact-info {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
